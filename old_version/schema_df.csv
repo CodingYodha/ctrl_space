@@ -1,0 +1,311 @@
+,table_name,column_name,description,unit,ucd,utype,xtype,datatype,size,principal,indexed,std
+0,fermigbrst,flnc_band_phtflnc_error,Band Model Photon Fluence Error for Fluence Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+1,fermigbrst,flnc_sbpl_ergflux,SBPL Energy Flux for Fluence Spectrum,erg/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+2,fermigbrst,flnc_plaw_phtfluxb,Power Law Model 50-300 keV (BATSE) Photon Flux for Fluence Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+3,fermigbrst,flnc_band_ergflux,Band Model Energy Flux for Fluence Spectrum,erg/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+4,fermigbrst,flnc_sbpl_phtflux,SBPL Photon Flux for Fluence Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+5,fermigbrst,flnc_band_statistic,Band Model Statistical Merit Function for Fluence Spectrum,,stat.fit,,,char,32,0,0,0
+6,fermigbrst,flnc_sbpl_ampl_pos_err,SBPL Amplitude Positive Error for Fluence Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+7,fermigbrst,pflx_sbpl_ampl,Smoothly Broken Power Law Model Amplitude for Peak Flux Spectrum,photon/cm^2/s/keV,stat.fit.param,,,double,,0,0,0
+8,fermigbrst,error_radius,Uncertainty in the Position (degrees),degree,stat.error;pos,,,double,,0,0,0
+9,fermigbrst,pflx_comp_phtfluxb_error,Comptonized Model 50-300 keV (BATSE) Photon Flux Error for Peak Flux Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+10,fermigbrst,scatalog,Catalog Version of the Spectral Catalog Entry File,,meta.version,,,short,,0,0,0
+11,fermigbrst,fluence_batse_error,Uncertainty in the 50-300 keV Fluence,erg/cm^2,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+12,fermigbrst,pflx_sbpl_phtflux,SBPL Photon Flux for Peak Flux Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+13,fermigbrst,pflx_comp_ampl,Comptonized Model Amplitude for Peak Flux Spectrum,photon/cm^2/s/keV,stat.fit.param,,,double,,0,0,0
+14,fermigbrst,flnc_comp_phtfluxb,Comptonized Model 50-300 keV (BATSE) Photon Flux for Fluence Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+15,fermigbrst,flnc_band_ergflux_error,Band Model Energy Flux Error for Fluence Spectrum,erg/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+16,fermigbrst,pflx_band_dof,Band Model Degrees of Freedom for Peak Flux Spectrum,,stat.fit.dof,,,double,,0,0,0
+17,fermigbrst,flnc_comp_phtflnc,Comptonized Model Photon Fluence for Fluence Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+18,fermigbrst,pflx_plaw_phtflnc_error,Power Law Model Photon Fluence Error for Peak Flux Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+19,fermigbrst,flnc_band_phtflnc,Band Model Photon Fluence for Fluence Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+20,fermigbrst,pflx_sbpl_brken,Smoothly Broken Power Law Model Break Energy for Peak Flux Spectrum,keV,stat.fit.param,,,double,,0,0,0
+21,fermigbrst,flnc_comp_ergflncb,Comptonized Model 50-300 keV (BATSE) Energy Fluence for Fluence Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+22,fermigbrst,pflx_comp_statistic,Comptonized Model Statistical Merit Function for Peak Flux Spectrum,,stat.fit,,,char,32,0,0,0
+23,fermigbrst,flnc_plaw_ampl,Power Law Model Amplitude for Fluence Spectrum,photon/cm^2/s/keV,stat.fit.param,,,double,,0,0,0
+24,fermigbrst,pflx_sbpl_brksc,Smoothly Broken Power Law Model Break Scale for Peak Flux Spectrum,keV,stat.fit.param,,,double,,0,0,0
+25,fermigbrst,flnc_plaw_phtflncb_error,Power Law Model 50-300 keV (BATSE) Photon Fluence Error for Fluence Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+26,fermigbrst,pflx_spectrum_stop,End Time for Peak Flux Spectrum Fits Relative to Trigger Time,s,time.end;obs,,,double,,0,0,0
+27,fermigbrst,pflx_comp_index_neg_err,Comptonized Model Index Negative Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+28,fermigbrst,flnc_sbpl_statistic,SBPL Statistical Merit Function for Fluence Spectrum,,stat.fit,,,char,32,0,0,0
+29,fermigbrst,pflx_band_ergflux_error,Band Model Energy Flux Error for Peak Flux Spectrum,erg/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+30,fermigbrst,flux_256,10-1000 keV Peak Flux (256ms Timescale),photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+31,fermigbrst,pflx_band_phtflnc_error,Band Model Photon Fluence Error for Peak Flux Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+32,fermigbrst,flnc_comp_epeak,Comptonized Model Peak Energy for Fluence Spectrum,keV,stat.fit.param,,,double,,0,0,0
+33,fermigbrst,pflx_sbpl_ergflux_error,SBPL Energy Flux Error for Peak Flux Spectrum,erg/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+34,fermigbrst,pflx_comp_ergflncb_error,Comptonized Model 50-300 keV (BATSE) Energy Fluence Error for Peak Flux Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+35,fermigbrst,pflx_sbpl_phtflncb,SBPL 50-300 keV (BATSE) Photon Fluence for Peak Flux Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+36,fermigbrst,pflx_plaw_ergflncb,Power Law Model 50-300 keV (BATSE) Energy Fluence for Peak Flux Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+37,fermigbrst,flnc_plaw_phtflncb,Power Law Model 50-300 keV (BATSE) Photon Fluence for Fluence Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+38,fermigbrst,trigger_name,Fermi Trigger Designation (Assigned for Each New Trigger Detected),,meta.id;meta.main,,,char,11,0,0,0
+39,fermigbrst,flux_64_error,Uncertainty in the 10-1000 keV Peak Flux (64ms Timescale),photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,1,0,0
+40,fermigbrst,flnc_comp_pivot,Comptonized Model Pivot Energy for Fluence Spectrum,keV,stat.fit.param,,,double,,0,0,0
+41,fermigbrst,pflx_comp_ampl_pos_err,Comptonized Model Amplitude Positive Error for Peak Flux Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+42,fermigbrst,pflx_plaw_ampl_neg_err,Power Law Model Amplitude Negative Error for Peak Flux Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+43,fermigbrst,dec,Declination,degree,pos.eq.dec;meta.main,,,double,,1,0,0
+44,fermigbrst,pflx_band_phtflux_error,Band Model Photon Flux Error for Peak Flux Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+45,fermigbrst,flux_batse_64_error,Uncertainty in the 50-300 keV Peak Flux (64ms Timescale),photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+46,fermigbrst,pflx_sbpl_pivot,Smoothly Broken Power Law Model Pivot Energy for Peak Flux Spectrum,keV,stat.fit.param,,,double,,0,0,0
+47,fermigbrst,flnc_plaw_ergflnc,Power Law Model Energy Fluence for Fluence Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+48,fermigbrst,flnc_plaw_phtflnc,Power Law Model Photon Fluence for Fluence Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+49,fermigbrst,pflx_band_beta,Band Model Beta for Peak Flux Spectrum,,stat.fit.param,,,double,,0,0,0
+50,fermigbrst,flnc_plaw_pivot_pos_err,Power Law Model Pivot Energy Positive Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+51,fermigbrst,flnc_band_ergflncb,Band Model 50-300 keV (BATSE) Energy Fluence for Fluence Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+52,fermigbrst,pflx_sbpl_ergflncb,SBPL 50-300 keV (BATSE) Energy Fluence for Peak Flux Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+53,fermigbrst,flnc_plaw_phtfluxb_error,Power Law Model 50-300 keV (BATSE) Photon Flux Error for Fluence Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+54,fermigbrst,flnc_sbpl_dof,SBPL Degrees of Freedom for Fluence Spectrum,,stat.fit.dof,,,double,,0,0,0
+55,fermigbrst,flnc_band_ampl_pos_err,Band Model Amplitude Positive Error for Fluence Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,1,0,0
+56,fermigbrst,pflx_band_ergflux,Band Model Energy Flux for Peak Flux Spectrum,erg/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+57,fermigbrst,flnc_sbpl_brken_pos_err,SBPL Break Energy Positive Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+58,fermigbrst,flnc_plaw_ampl_pos_err,Power Law Model Amplitude Positive Error for Fluence Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+59,fermigbrst,pflx_sbpl_phtflnc,SBPL Photon Fluence for Peak Flux Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+60,fermigbrst,flnc_band_ampl,Band Model Amplitude for Fluence Spectrum,photon/cm^2/s/keV,stat.fit.param,,,double,,1,0,0
+61,fermigbrst,flnc_plaw_phtflnc_error,Power Law Model Photon Fluence Error for Fluence Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+62,fermigbrst,flnc_sbpl_brksc_pos_err,SBPL Break Scale Positive Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+63,fermigbrst,pflx_plaw_ampl_pos_err,Power Law Model Amplitude Positive Error for Peak Flux Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+64,fermigbrst,bii,Galactic Latitude,degree,pos.galactic.lat,,,double,,0,0,0
+65,fermigbrst,flnc_comp_ampl_pos_err,Comptonized Model Amplitude Positive Error for Fluence Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+66,fermigbrst,flnc_comp_phtflncb,Comptonized Model 50-300 keV (BATSE) Photon Fluence for Fluence Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+67,fermigbrst,duration_energy_high,Upper Limit of Duration Integration (keV),keV,em.energy,,,double,,0,0,0
+68,fermigbrst,flux_batse_256,50-300 keV Peak Flux (256ms Timescale),photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+69,fermigbrst,pflx_band_ergflncb,Band Model 50-300 keV (BATSE) Energy Fluence for Peak Flux Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+70,fermigbrst,t90,90% Burst Duration (s),s,time.interval,,,double,,1,0,0
+71,fermigbrst,pflx_plaw_pivot_pos_err,Power Law Model Pivot Energy Positive Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+72,fermigbrst,flnc_comp_pivot_neg_err,Comptonized Model Pivot Energy Negative Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+73,fermigbrst,flnc_band_epeak_pos_err,Band Model Peak Energy Positive Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,1,0,0
+74,fermigbrst,pflx_plaw_redchisq,Power Law Model Reduced Chi-Squared for Peak Flux Spectrum,,stat.fit.chi2,,,double,,0,0,0
+75,fermigbrst,flnc_sbpl_phtflnc_error,SBPL Photon Fluence Error for Fluence Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+76,fermigbrst,pflx_band_redchisq,Band Model Reduced Chi-Squared for Peak Flux Spectrum,,stat.fit.chi2,,,double,,0,0,0
+77,fermigbrst,bcatalog,Catalog Version of the Burst Catalog Entry File,,meta.version,,,short,,0,0,0
+78,fermigbrst,flnc_best_model_redchisq,Reduced Chi-Squared for Fluence Spectrum Model Which Best Fits the Data,,stat.fit.chi2,,,double,,1,0,0
+79,fermigbrst,pflx_comp_pivot_pos_err,Comptonized Model Pivot Energy Positive Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+80,fermigbrst,t50_start,Start of T50 Interval (s) Relative to Trigger Time,s,time.start;obs,,,double,,0,0,0
+81,fermigbrst,flnc_comp_ampl_neg_err,Comptonized Model Amplitude Negative Error for Fluence Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+82,fermigbrst,pflx_sbpl_phtflnc_error,SBPL Photon Fluence Error for Peak Flux Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+83,fermigbrst,pflx_comp_redfitstat,Comptonized Model Reduced Fitting Statistic for Peak Flux Spectrum,,stat.fit.goodness,,,double,,0,0,0
+84,fermigbrst,pflx_comp_ergflux,Comptonized Model Energy Flux for Peak Flux Spectrum,erg/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+85,fermigbrst,flnc_plaw_index_neg_err,Power Law Model Index Negative Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+86,fermigbrst,flnc_plaw_redfitstat,Power Law Model Reduced Fitting Statistic for Fluence Spectrum,,stat.fit.goodness,,,double,,0,0,0
+87,fermigbrst,flnc_sbpl_phtflncb,SBPL 50-300 keV (BATSE) Photon Fluence for Fluence Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+88,fermigbrst,pflx_sbpl_ergflnc_error,SBPL Energy Fluence Error for Peak Flux Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+89,fermigbrst,t90_start,Start of T90 Interval (s) Relative to Trigger Time,s,time.start;obs,,,double,,1,0,0
+90,fermigbrst,flux_1024_time,Start Time for Peak Flux Interval (1024ms Timescale) Relative to Trigger Time,s,time.start;obs,,,double,,1,0,0
+91,fermigbrst,flux_1024_error,Uncertainty in the 10-1000 keV Peak Flux (1024ms Timescale),photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,1,0,0
+92,fermigbrst,flnc_comp_index_neg_err,Comptonized Model Index Negative Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+93,fermigbrst,flnc_band_phtflux,Band Model Photon Flux for Fluence Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+94,fermigbrst,pflx_comp_index_pos_err,Comptonized Model Index Positive Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+95,fermigbrst,pflx_comp_phtflux,Comptonized Model Photon Flux for Peak Flux Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+96,fermigbrst,flnc_band_beta_neg_err,Band Model Beta Negative Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,1,0,0
+97,fermigbrst,flnc_comp_dof,Comptonized Model Degrees of Freedom for Fluence Spectrum,,stat.fit.dof,,,double,,0,0,0
+98,fermigbrst,duration_energy_low,Lower Limit of Duration Integration (keV),keV,em.energy,,,double,,0,0,0
+99,fermigbrst,pflx_sbpl_brken_neg_err,SBPL Break Energy Negative Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+100,fermigbrst,flnc_plaw_statistic,Power Law Model Statistical Merit Function for Fluence Spectrum,,stat.fit,,,char,32,0,0,0
+101,fermigbrst,pflx_band_beta_pos_err,Band Model Beta Positive Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+102,fermigbrst,pflx_comp_phtflncb_error,Comptonized Model 50-300 keV (BATSE) Photon Fluence Error for Peak Flux Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+103,fermigbrst,flnc_sbpl_phtflnc,SBPL Photon Fluence for Fluence Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+104,fermigbrst,pflx_sbpl_indx1_neg_err,SBPL Index 1 Negative Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+105,fermigbrst,pflx_plaw_phtflncb,Power Law Model 50-300 keV (BATSE) Photon Fluence for Peak Flux Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+106,fermigbrst,actual_64ms_interval,Actual Length of Nominal 64ms Timescale for Peak Flux Measurement,s,time.scale,,,double,,0,0,0
+107,fermigbrst,pflx_band_phtflncb,Band Model 50-300 keV (BATSE) Photon Fluence for Peak Flux Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+108,fermigbrst,flnc_sbpl_ergflnc,SBPL Energy Fluence for Fluence Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+109,fermigbrst,pflx_comp_epeak_pos_err,Comptonized Model Peak Energy Positive Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+110,fermigbrst,flnc_comp_phtflux_error,Comptonized Model Photon Flux Error for Fluence Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+111,fermigbrst,flnc_sbpl_ergflnc_error,SBPL Energy Fluence Error for Fluence Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+112,fermigbrst,pflx_plaw_phtfluxb,Power Law Model 50-300 keV (BATSE) Photon Flux for Peak Flux Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+113,fermigbrst,flnc_sbpl_pivot_neg_err,SBPL Pivot Energy Negative Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+114,fermigbrst,pflx_comp_phtflnc,Comptonized Model Photon Fluence for Peak Flux Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+115,fermigbrst,pflx_comp_epeak,Comptonized Model Peak Energy for Peak Flux Spectrum,keV,stat.fit.param,,,double,,0,0,0
+116,fermigbrst,pflx_comp_ergflncb,Comptonized Model 50-300 keV (BATSE) Energy Fluence for Peak Flux Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+117,fermigbrst,flux_batse_64_time,Start Time for Peak Flux Interval (64ms Timescale) Relative to Trigger Time,s,time.start;obs,,,double,,0,0,0
+118,fermigbrst,flnc_plaw_dof,Power Law Model Degrees of Freedom for Fluence Spectrum,,stat.fit.dof,,,double,,0,0,0
+119,fermigbrst,pflx_band_ampl_pos_err,Band Model Amplitude Positive Error for Peak Flux Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+120,fermigbrst,flnc_band_ergflncb_error,Band Model 50-300 keV (BATSE) Energy Fluence Error for Fluence Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+121,fermigbrst,pflx_sbpl_ergflncb_error,SBPL 50-300 keV (BATSE) Energy Fluence Error for Peak Flux Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+122,fermigbrst,flnc_sbpl_phtfluxb,SBPL 50-300 keV (BATSE) Photon Flux for Fluence Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+123,fermigbrst,flnc_comp_phtfluxb_error,Comptonized Model 50-300 keV (BATSE) Photon Flux Error for Fluence Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+124,fermigbrst,actual_256ms_interval,Actual Length of Nominal 256ms Timescale for Peak Flux Measurement,s,time.scale,,,double,,0,0,0
+125,fermigbrst,pflx_sbpl_brksc_pos_err,SBPL Break Scale Positive Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+126,fermigbrst,pflx_plaw_dof,Power Law Model Degrees of Freedom for Peak Flux Spectrum,,stat.fit.dof,,,double,,0,0,0
+127,fermigbrst,flnc_comp_index,Comptonized Model Index for Fluence Spectrum,,stat.fit.param,,,double,,0,0,0
+128,fermigbrst,fluence_batse,50-300 keV Fluence (BATSE Standard),erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+129,fermigbrst,pflx_sbpl_phtflux_error,SBPL Photon Flux Error for Peak Flux Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+130,fermigbrst,pflx_band_alpha,Band Model Alpha for Peak Flux Spectrum,,stat.fit.param,,,double,,0,0,0
+131,fermigbrst,flnc_comp_phtflux,Comptonized Model Photon Flux for Fluence Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+132,fermigbrst,pflx_sbpl_statistic,SBPL Statistical Merit Function for Peak Flux Spectrum,,stat.fit,,,char,32,0,0,0
+133,fermigbrst,flnc_sbpl_indx2_pos_err,SBPL Index 2 Positive Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+134,fermigbrst,pflx_plaw_redfitstat,Power Law Model Reduced Fitting Statistic for Peak Flux Spectrum,,stat.fit.goodness,,,double,,0,0,0
+135,fermigbrst,flnc_band_ergflnc,Band Model Energy Fluence for Fluence Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+136,fermigbrst,pflx_band_ergflncb_error,Band Model 50-300 keV (BATSE) Energy Fluence Error for Peak Flux Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+137,fermigbrst,last_modified,Last Modified Time,mjd,time.epoch;meta.dataset,,,double,,0,0,0
+138,fermigbrst,pflx_plaw_ampl,Power Law Model Amplitude for Peak Flux Spectrum,photon/cm^2/s/keV,stat.fit.param,,,double,,0,0,0
+139,fermigbrst,pflx_plaw_phtflncb_error,Power Law Model 50-300 keV (BATSE) Photon Fluence Error for Peak Flux Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+140,fermigbrst,t50,50% Burst Duration (s),s,time.interval,,,double,,0,0,0
+141,fermigbrst,pflx_band_phtfluxb,Band Model 50-300 keV (BATSE) Photon Flux for Peak Flux Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+142,fermigbrst,flnc_band_beta,Band Model Beta for Fluence Spectrum,,stat.fit.param,,,double,,1,0,0
+143,fermigbrst,flnc_band_ergflnc_error,Band Model Energy Fluence Error for Fluence Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+144,fermigbrst,flnc_comp_ergflux,Comptonized Model Energy Flux for Fluence Spectrum,erg/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+145,fermigbrst,pflx_plaw_phtflnc,Power Law Model Photon Fluence for Peak Flux Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+146,fermigbrst,pflx_comp_pivot_neg_err,Comptonized Model Pivot Energy Negative Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+147,fermigbrst,flu_high,Upper Limit of Flux/Fluence Integration (keV),keV,em.energy,,,double,,0,0,0
+148,fermigbrst,pflx_sbpl_pivot_neg_err,SBPL Pivot Energy Negative Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+149,fermigbrst,flnc_sbpl_indx1,Smoothly Broken Power Law Model Index 1 for Fluence Spectrum,,stat.fit.param,,,double,,0,0,0
+150,fermigbrst,back_interval_low_start,Start Time for Lower Background Selection Interval Relative to the Trigger Time,s,time.start;obs,,,double,,0,0,0
+151,fermigbrst,pflx_plaw_phtfluxb_error,Power Law Model 50-300 keV (BATSE) Photon Flux Error for Peak Flux Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+152,fermigbrst,flnc_comp_epeak_pos_err,Comptonized Model Peak Energy Positive Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+153,fermigbrst,flu_low,Lower Limit of Flux/Fluence Integration (keV),keV,em.energy,,,double,,0,0,0
+154,fermigbrst,flnc_best_fitting_model,Fluence Spectrum Model Which Best Fits the Data,,stat.fit,,,char,32,1,0,0
+155,fermigbrst,flux_batse_1024_time,Start Time for Peak Flux Interval (1024ms Timescale) Relative to Trigger Time,s,time.start;obs,,,double,,0,0,0
+156,fermigbrst,flnc_plaw_ergflux_error,Power Law Model Energy Flux Error for Fluence Spectrum,erg/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+157,fermigbrst,pflx_band_phtflnc,Band Model Photon Fluence for Peak Flux Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+158,fermigbrst,flnc_plaw_pivot,Power Law Model Pivot Energy for Fluence Spectrum,keV,stat.fit.param,,,double,,0,0,0
+159,fermigbrst,flnc_comp_ergflnc_error,Comptonized Model Energy Fluence Error for Fluence Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+160,fermigbrst,flnc_band_phtflux_error,Band Model Photon Flux Error for Fluence Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+161,fermigbrst,pflx_plaw_ergflnc_error,Power Law Model Energy Fluence Error for Peak Flux Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+162,fermigbrst,flux_64_time,Start Time for Peak Flux Interval (64ms Timescale) Relative to Trigger Time,s,time.start;obs,,,double,,0,0,0
+163,fermigbrst,flnc_band_epeak_neg_err,Band Model Peak Energy Negative Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,1,0,0
+164,fermigbrst,flnc_sbpl_ergflncb,SBPL 50-300 keV (BATSE) Energy Fluence for Fluence Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+165,fermigbrst,pflx_plaw_index_neg_err,Power Law Model Index Negative Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+166,fermigbrst,flnc_plaw_phtflux_error,Power Law Model Photon Flux Error for Fluence Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+167,fermigbrst,flnc_plaw_pivot_neg_err,Power Law Model Pivot Energy Negative Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+168,fermigbrst,flnc_sbpl_ampl_neg_err,SBPL Amplitude Negative Error for Fluence Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+169,fermigbrst,flnc_band_redfitstat,Band Model Reduced Fitting Statistic for Fluence Spectrum,,stat.fit.goodness,,,double,,0,0,0
+170,fermigbrst,pflx_band_phtflux,Band Model Photon Flux for Peak Flux Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+171,fermigbrst,pflx_comp_ampl_neg_err,Comptonized Model Amplitude Negative Error for Peak Flux Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+172,fermigbrst,pflx_spectrum_start,Start Time for Peak Flux Spectrum Fits Relative to Trigger Time,s,time.start;obs,,,double,,0,0,0
+173,fermigbrst,pflx_band_epeak,Band Model Peak Energy for Peak Flux Spectrum,keV,stat.fit.param,,,double,,0,0,0
+174,fermigbrst,pflx_plaw_phtflux,Power Law Model Photon Flux for Peak Flux Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+175,fermigbrst,pflx_plaw_statistic,Power Law Model Statistical Merit Function for Peak Flux Spectrum,,stat.fit,,,char,32,0,0,0
+176,fermigbrst,flnc_plaw_index,Power Law Model Index for Fluence Spectrum,,stat.fit.param,,,double,,0,0,0
+177,fermigbrst,flnc_comp_redfitstat,Comptonized Model Reduced Fitting Statistic for Fluence Spectrum,,stat.fit.goodness,,,double,,0,0,0
+178,fermigbrst,flnc_sbpl_redfitstat,SBPL Reduced Fitting Statistic for Fluence Spectrum,,stat.fit.goodness,,,double,,0,0,0
+179,fermigbrst,flux_batse_64,50-300 keV Peak Flux (64ms Timescale),photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+180,fermigbrst,flnc_sbpl_indx1_neg_err,SBPL Index 1 Negative Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+181,fermigbrst,pflx_comp_index,Comptonized Model Index for Peak Flux Spectrum,,stat.fit.param,,,double,,0,0,0
+182,fermigbrst,pflx_sbpl_indx1_pos_err,SBPL Index 1 Positive Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+183,fermigbrst,flnc_comp_redchisq,Comptonized Model Reduced Chi-Squared for Fluence Spectrum,,stat.fit.chi2,,,double,,0,0,0
+184,fermigbrst,pflx_comp_phtflncb,Comptonized Model 50-300 keV (BATSE) Photon Fluence for Peak Flux Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+185,fermigbrst,flnc_sbpl_brksc,Smoothly Broken Power Law Model Break Scale for Fluence Spectrum,keV,stat.fit.param,,,double,,0,0,0
+186,fermigbrst,flux_256_time,Start Time for Peak Flux Interval (256ms Timescale) Relative to Trigger Time,s,time.start;obs,,,double,,0,0,0
+187,fermigbrst,flnc_sbpl_brksc_neg_err,SBPL Break Scale Negative Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+188,fermigbrst,pflx_comp_phtfluxb,Comptonized Model 50-300 keV (BATSE) Photon Flux for Peak Flux Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+189,fermigbrst,pflx_band_alpha_pos_err,Band Model Alpha Positive Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+190,fermigbrst,pflx_sbpl_brksc_neg_err,SBPL Break Scale Negative Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+191,fermigbrst,flnc_plaw_ergflux,Power Law Model Energy Flux for Fluence Spectrum,erg/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+192,fermigbrst,scat_detector_mask,Flags [01] Indicate Detectors Included in Model Fits by Position,,,,,char,14,0,0,0
+193,fermigbrst,pflx_plaw_ergflnc,Power Law Model Energy Fluence for Peak Flux Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+194,fermigbrst,flux_batse_1024_error,Uncertainty in the 50-300 keV Peak Flux (1024ms Timescale),photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+195,fermigbrst,flnc_sbpl_phtflncb_error,SBPL 50-300 keV (BATSE) Photon Fluence Error for Fluence Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+196,fermigbrst,pflx_comp_pivot,Comptonized Model Pivot Energy for Peak Flux Spectrum,keV,stat.fit.param,,,double,,0,0,0
+197,fermigbrst,pflx_sbpl_indx2_neg_err,SBPL Index 2 Negative Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+198,fermigbrst,flnc_band_phtfluxb_error,Band Model 50-300 keV (BATSE) Photon Flux Error for Fluence Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+199,fermigbrst,flnc_sbpl_pivot,Smoothly Broken Power Law Model Pivot Energy for Fluence Spectrum,keV,stat.fit.param,,,double,,0,0,0
+200,fermigbrst,fluence_error,Uncertainty in the 10-1000 keV Fluence,erg/cm^2,stat.error;phot.flux;em.gamma,,,double,,1,0,0
+201,fermigbrst,pflx_sbpl_ergflnc,SBPL Energy Fluence for Peak Flux Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+202,fermigbrst,flnc_band_alpha_neg_err,Band Model Alpha Negative Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,1,0,0
+203,fermigbrst,pflx_band_epeak_pos_err,Band Model Peak Energy Positive Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+204,fermigbrst,flnc_band_phtflncb_error,Band Model 50-300 keV (BATSE) Photon Fluence Error for Fluence Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+205,fermigbrst,"""__row""",System index column,,,,,char,16,0,0,0
+206,fermigbrst,pflx_sbpl_redfitstat,SBPL Reduced Fitting Statistic for Peak Flux Spectrum,,stat.fit.goodness,,,double,,0,0,0
+207,fermigbrst,flnc_comp_ergflncb_error,Comptonized Model 50-300 keV (BATSE) Energy Fluence Error for Fluence Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+208,fermigbrst,pflx_plaw_ergflncb_error,Power Law Model 50-300 keV (BATSE) Energy Fluence Error for Peak Flux Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+209,fermigbrst,flnc_sbpl_ampl,Smoothly Broken Power Law Model Amplitude for Fluence Spectrum,photon/cm^2/s/keV,stat.fit.param,,,double,,0,0,0
+210,fermigbrst,flnc_comp_epeak_neg_err,Comptonized Model Peak Energy Negative Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+211,fermigbrst,flnc_comp_ampl,Comptonized Model Amplitude for Fluence Spectrum,photon/cm^2/s/keV,stat.fit.param,,,double,,0,0,0
+212,fermigbrst,pflx_band_ampl_neg_err,Band Model Amplitude Negative Error for Peak Flux Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+213,fermigbrst,t90_error,Uncertainty in T90 Duration,s,stat.error;time.interval,,,double,,1,0,0
+214,fermigbrst,pflx_comp_phtflnc_error,Comptonized Model Photon Fluence Error for Peak Flux Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+215,fermigbrst,flnc_band_phtfluxb,Band Model 50-300 keV (BATSE) Photon Flux for Fluence Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+216,fermigbrst,name,Source Designation,,meta.id,,,char,30,1,0,0
+217,fermigbrst,pflx_sbpl_phtfluxb,SBPL 50-300 keV (BATSE) Photon Flux for Peak Flux Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+218,fermigbrst,flnc_sbpl_phtflux_error,SBPL Photon Flux Error for Fluence Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+219,fermigbrst,t50_error,Uncertainty in T50 Duration,s,stat.error;time.interval,,,double,,0,0,0
+220,fermigbrst,pflx_sbpl_pivot_pos_err,SBPL Pivot Energy Positive Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+221,fermigbrst,pflx_comp_ergflnc,Comptonized Model Energy Fluence for Peak Flux Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+222,fermigbrst,pflx_comp_ergflux_error,Comptonized Model Energy Flux Error for Peak Flux Spectrum,erg/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+223,fermigbrst,pflx_plaw_ergflux,Power Law Model Energy Flux for Peak Flux Spectrum,erg/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+224,fermigbrst,flnc_sbpl_phtfluxb_error,SBPL 50-300 keV (BATSE) Photon Flux Error for Fluence Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+225,fermigbrst,flnc_sbpl_indx1_pos_err,SBPL Index 1 Positive Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+226,fermigbrst,pflx_comp_ergflnc_error,Comptonized Model Energy Fluence Error for Peak Flux Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+227,fermigbrst,flnc_plaw_ergflncb_error,Power Law Model 50-300 keV (BATSE) Energy Fluence Error for Fluence Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+228,fermigbrst,flnc_sbpl_redchisq,SBPL Reduced Chi-Squared for Fluence Spectrum,,stat.fit.chi2,,,double,,0,0,0
+229,fermigbrst,pflx_plaw_index,Power Law Model Index for Peak Flux Spectrum,,stat.fit.param,,,double,,0,0,0
+230,fermigbrst,flnc_plaw_redchisq,Power Law Model Reduced Chi-Squared for Fluence Spectrum,,stat.fit.chi2,,,double,,0,0,0
+231,fermigbrst,pflx_plaw_phtflux_error,Power Law Model Photon Flux Error for Peak Flux Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+232,fermigbrst,flnc_band_alpha_pos_err,Band Model Alpha Positive Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,1,0,0
+233,fermigbrst,pflx_band_ampl,Band Model Amplitude for Peak Flux Spectrum,photon/cm^2/s/keV,stat.fit.param,,,double,,0,0,0
+234,fermigbrst,ra,Right Ascension,degree,pos.eq.ra;meta.main,,,double,,1,0,0
+235,fermigbrst,"""__x_ra_dec""",System unit vector column,,,,,double,,0,0,0
+236,fermigbrst,pflx_comp_phtflux_error,Comptonized Model Photon Flux Error for Peak Flux Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+237,fermigbrst,flnc_sbpl_pivot_pos_err,SBPL Pivot Energy Positive Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+238,fermigbrst,pflx_sbpl_indx1,Smoothly Broken Power Law Model Index 1 for Peak Flux Spectrum,,stat.fit.param,,,double,,0,0,0
+239,fermigbrst,flnc_sbpl_indx2_neg_err,SBPL Index 2 Negative Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+240,fermigbrst,flnc_spectrum_stop,End Time for Fluence Spectrum Fits Relative to Trigger Time,s,time.end;obs,,,double,,1,0,0
+241,fermigbrst,pflx_sbpl_indx2,Smoothly Broken Power Law Model Index 2 for Peak Flux Spectrum,,stat.fit.param,,,double,,0,0,0
+242,fermigbrst,flux_batse_256_time,Start Time for Peak Flux Interval (256ms Timescale) Relative to Trigger Time,s,time.start;obs,,,double,,0,0,0
+243,fermigbrst,flnc_comp_phtflnc_error,Comptonized Model Photon Fluence Error for Fluence Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+244,fermigbrst,actual_1024ms_interval,Actual Length of Nominal 1024ms Timescale for Peak Flux Measurement,s,time.scale,,,double,,0,0,0
+245,fermigbrst,flnc_sbpl_indx2,Smoothly Broken Power Law Model Index 2 for Fluence Spectrum,,stat.fit.param,,,double,,0,0,0
+246,fermigbrst,flux_256_error,Uncertainty in the 10-1000 keV Peak Flux (256ms Timescale),photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+247,fermigbrst,pflx_best_model_redchisq,Reduced Chi-Squared for Peak Flux Spectrum Model Which Best Fits the Data,,stat.fit.chi2,,,double,,1,0,0
+248,fermigbrst,pflx_plaw_pivot_neg_err,Power Law Model Pivot Energy Negative Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+249,fermigbrst,flnc_plaw_phtflux,Power Law Model Photon Flux for Fluence Spectrum,photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+250,fermigbrst,pflx_sbpl_redchisq,SBPL Reduced Chi-Squared for Peak Flux Spectrum,,stat.fit.chi2,,,double,,0,0,0
+251,fermigbrst,flux_batse_256_error,Uncertainty in the 50-300 keV Peak Flux (256ms Timescale),photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+252,fermigbrst,flnc_comp_phtflncb_error,Comptonized Model 50-300 keV (BATSE) Photon Fluence Error for Fluence Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+253,fermigbrst,pflx_band_ergflnc,Band Model Energy Fluence for Peak Flux Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+254,fermigbrst,"""__z_ra_dec""",System unit vector column,,,,,double,,0,0,0
+255,fermigbrst,pflx_sbpl_ampl_pos_err,SBPL Amplitude Positive Error for Peak Flux Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+256,fermigbrst,pflx_plaw_pivot,Power Law Model Pivot Energy for Peak Flux Spectrum,keV,stat.fit.param,,,double,,0,0,0
+257,fermigbrst,pflx_best_fitting_model,Peak Flux Spectrum Model Which Best Fits the Data,,stat.fit,,,char,32,1,0,0
+258,fermigbrst,pflx_comp_epeak_neg_err,Comptonized Model Peak Energy Negative Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+259,fermigbrst,flnc_plaw_ergflnc_error,Power Law Model Energy Fluence Error for Fluence Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+260,fermigbrst,pflx_sbpl_phtfluxb_error,SBPL 50-300 keV (BATSE) Photon Flux Error for Peak Flux Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+261,fermigbrst,flnc_band_redchisq,Band Model Reduced Chi-Squared for Fluence Spectrum,,stat.fit.chi2,,,double,,0,0,0
+262,fermigbrst,flux_1024,10-1000 keV Peak Flux (1024ms Timescale),photon/cm^2/s,phot.flux;em.gamma,,,double,,1,0,0
+263,fermigbrst,back_interval_high_start,Start Time for Upper Background Selection Interval Relative to the Trigger Time,s,time.start;obs,,,double,,0,0,0
+264,fermigbrst,pflx_sbpl_ampl_neg_err,SBPL Amplitude Negative Error for Peak Flux Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+265,fermigbrst,pflx_sbpl_brken_pos_err,SBPL Break Energy Positive Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+266,fermigbrst,bcat_detector_mask,Flags [01] Indicate Included Detectors by Position,,,,,char,14,0,0,0
+267,fermigbrst,flnc_band_beta_pos_err,Band Model Beta Positive Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,1,0,0
+268,fermigbrst,flnc_plaw_ergflncb,Power Law Model 50-300 keV (BATSE) Energy Fluence for Fluence Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+269,fermigbrst,pflx_sbpl_phtflncb_error,SBPL 50-300 keV (BATSE) Photon Fluence Error for Peak Flux Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+270,fermigbrst,pflx_band_phtflncb_error,Band Model 50-300 keV (BATSE) Photon Fluence Error for Peak Flux Spectrum,photon/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+271,fermigbrst,flnc_comp_ergflux_error,Comptonized Model Energy Flux Error for Fluence Spectrum,erg/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+272,fermigbrst,pflx_band_redfitstat,Band Model Reduced Fitting Statistic for Peak Flux Spectrum,,stat.fit.goodness,,,double,,0,0,0
+273,fermigbrst,lii,Galactic Longitude,degree,pos.galactic.lon,,,double,,0,0,0
+274,fermigbrst,pflx_comp_dof,Comptonized Model Degrees of Freedom for Peak Flux Spectrum,,stat.fit.dof,,,double,,0,0,0
+275,fermigbrst,pflx_band_epeak_neg_err,Band Model Peak Energy Negative Error for Peak Flux Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+276,fermigbrst,flnc_band_ampl_neg_err,Band Model Amplitude Negative Error for Fluence Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,1,0,0
+277,fermigbrst,flnc_sbpl_ergflncb_error,SBPL 50-300 keV (BATSE) Energy Fluence Error for Fluence Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
+278,fermigbrst,pflx_band_beta_neg_err,Band Model Beta Negative Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+279,fermigbrst,flnc_band_epeak,Band Model Peak Energy for Fluence Spectrum,keV,stat.fit.param,,,double,,1,0,0
+280,fermigbrst,pflx_sbpl_indx2_pos_err,SBPL Index 2 Positive Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+281,fermigbrst,flnc_spectrum_start,Start Time for Fluence Spectrum Fits Relative to Trigger Time,s,time.start;obs,,,double,,1,0,0
+282,fermigbrst,pflx_sbpl_ergflux,SBPL Energy Flux for Peak Flux Spectrum,erg/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+283,fermigbrst,flnc_comp_pivot_pos_err,Comptonized Model Pivot Energy Positive Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+284,fermigbrst,flux_64,10-1000 keV Peak Flux (64ms Timescale),photon/cm^2/s,phot.flux;em.gamma,,,double,,1,0,0
+285,fermigbrst,flux_batse_1024,50-300 keV Peak Flux (1024ms Timescale),photon/cm^2/s,phot.flux;em.gamma,,,double,,0,0,0
+286,fermigbrst,pflx_sbpl_dof,SBPL Degrees of Freedom for Peak Flux Spectrum,,stat.fit.dof,,,double,,0,0,0
+287,fermigbrst,pflx_plaw_index_pos_err,Power Law Model Index Positive Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+288,fermigbrst,flnc_sbpl_brken,Smoothly Broken Power Law Model Break Energy for Fluence Spectrum,keV,stat.fit.param,,,double,,0,0,0
+289,fermigbrst,flnc_band_phtflncb,Band Model 50-300 keV (BATSE) Photon Fluence for Fluence Spectrum,photon/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+290,fermigbrst,"""__y_ra_dec""",System unit vector column,,,,,double,,0,0,0
+291,fermigbrst,trigger_time,Observation Trigger Time,mjd,time.epoch;obs,,,double,,1,0,0
+292,fermigbrst,flnc_plaw_index_pos_err,Power Law Model Index Positive Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+293,fermigbrst,pflx_band_alpha_neg_err,Band Model Alpha Negative Error for Peak Flux Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+294,fermigbrst,flnc_comp_ergflnc,Comptonized Model Energy Fluence for Fluence Spectrum,erg/cm^2,phot.fluence;em.gamma,,,double,,0,0,0
+295,fermigbrst,pflx_band_statistic,Band Model Statistical Merit Function for Peak Flux Spectrum,,stat.fit,,,char,32,0,0,0
+296,fermigbrst,pflx_band_phtfluxb_error,Band Model 50-300 keV (BATSE) Photon Flux Error for Peak Flux Spectrum,photon/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+297,fermigbrst,flnc_plaw_ampl_neg_err,Power Law Model Amplitude Negative Error for Fluence Spectrum,photon/cm^2/s/keV,stat.error;stat.fit.param,,,double,,0,0,0
+298,fermigbrst,flnc_comp_statistic,Comptonized Model Statistical Merit Function for Fluence Spectrum,,stat.fit,,,char,32,0,0,0
+299,fermigbrst,flnc_sbpl_ergflux_error,SBPL Energy Flux Error for Fluence Spectrum,erg/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+300,fermigbrst,flnc_band_alpha,Band Model Alpha for Fluence Spectrum,,stat.fit.param,,,double,,1,0,0
+301,fermigbrst,flnc_comp_index_pos_err,Comptonized Model Index Positive Error for Fluence Spectrum,,stat.error;stat.fit.param,,,double,,0,0,0
+302,fermigbrst,back_interval_high_stop,Stop Time for Upper Background Selection Interval Relative to the Trigger Time,s,time.end;obs,,,double,,0,0,0
+303,fermigbrst,flnc_band_dof,Band Model Degrees of Freedom for Fluence Spectrum,,stat.fit.dof,,,double,,0,0,0
+304,fermigbrst,pflx_plaw_ergflux_error,Power Law Model Energy Flux Error for Peak Flux Spectrum,erg/cm^2/s,stat.error;phot.flux;em.gamma,,,double,,0,0,0
+305,fermigbrst,fluence,10-1000 keV Fluence,erg/cm^2,phot.fluence;em.gamma,,,double,,1,0,0
+306,fermigbrst,pflx_comp_redchisq,Comptonized Model Reduced Chi-Squared for Peak Flux Spectrum,,stat.fit.chi2,,,double,,0,0,0
+307,fermigbrst,back_interval_low_stop,Stop Time for Lower Background Selection Interval Relative to the Trigger Time,s,time.end;obs,,,double,,0,0,0
+308,fermigbrst,flnc_sbpl_brken_neg_err,SBPL Break Energy Negative Error for Fluence Spectrum,keV,stat.error;stat.fit.param,,,double,,0,0,0
+309,fermigbrst,pflx_band_ergflnc_error,Band Model Energy Fluence Error for Peak Flux Spectrum,erg/cm^2,stat.error;phot.fluence;em.gamma,,,double,,0,0,0
